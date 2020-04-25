@@ -49,8 +49,6 @@ public class Cadastro implements Comparable<Cadastro>{
 		
 		Cadastro outroCadastro = (Cadastro)outro;
 		
-		boolean isEqual = true;
-		
 		if(! this.getNome().equals(outroCadastro.getNome()))
 			return false;
 		
